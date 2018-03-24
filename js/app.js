@@ -1,7 +1,7 @@
 (function () {
 
     // set default map positioning
-    var map = L.map('map').setView([40.7607793, -111.89104739999999], 13);
+    var map = L.map('map').setView([40.7607793, -111.89104739999999], 8);
 
     // create base map
     L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
