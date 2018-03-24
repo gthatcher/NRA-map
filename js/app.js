@@ -13,4 +13,9 @@
     }).addTo(map);
 
     // add map to container
-    L.geoJSON(4h).addTo(map);
+    L.geoJSON(geojson4H, {
+        onEachFeature: function() {
+            console.log(true);
+        }
+    }).addTo(map);
+})();
