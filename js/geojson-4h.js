@@ -38,7 +38,7 @@ var geojson4H = {
                 "Country": "US",
                 "Source": "Utah AGRC (and individual UT counties)"
             },
-            "geometry": null
+            "geometry":{ "type": "Point", "coordinates": [ -111.886934, 40.98001 ]}
         },
         {
             "type": "Feature",
@@ -71,7 +71,7 @@ var geojson4H = {
                 "Country": "US",
                 "Source": "Utah AGRC (and individual UT counties)"
             },
-            "geometry": null
+            "geometry": { "type": "Point", "coordinates": [ -113.0785, 37.664718 ] }
         },
         {
             "type": "Feature",
@@ -104,7 +104,7 @@ var geojson4H = {
                 "Country": "US",
                 "Source": "TIGER\/Line® dataset from the US Census Bureau"
             },
-            "geometry": null
+            "geometry": { "type": "Point", "coordinates": [ -112.015731, 41.510554 ] } 
         },
         {
             "type": "Feature",
@@ -137,7 +137,7 @@ var geojson4H = {
                 "Country": "US",
                 "Source": "Utah AGRC (and individual UT counties)"
             },
-            "geometry": null
+            "geometry": { "type": "Point", "coordinates": [ -113.0785, 37.664718 ] } 
         }
     ]
 }
