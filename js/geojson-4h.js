@@ -1,4 +1,4 @@
-var geejson4H = {
+var geojson4H = {
     "type": "FeatureCollection",
     "name": "4h",
     "crs": {
